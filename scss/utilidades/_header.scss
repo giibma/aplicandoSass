@@ -1,0 +1,17 @@
+header{
+    background-color: darkgray;
+    color: $azul;
+    display: flex;
+    justify-content: space-between;
+    
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin:10px;
+            &:hover{
+                font-size: x-large;
+            }
+        }
+    }
+}

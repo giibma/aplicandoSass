@@ -1,0 +1,21 @@
+.contenedor {
+  background-color: cadetblue; }
+  .contenedor .titulo {
+    color: chocolate; }
+    .contenedor .titulo:hover {
+      font-size: xx-large; }
+  .contenedor:hover {
+    background-color: darkgoldenrod; }
+
+header {
+  background-color: darkgray;
+  color: #4F86C6;
+  display: flex;
+  justify-content: space-between; }
+  header ul {
+    display: flex; }
+    header ul li {
+      list-style: none;
+      margin: 10px; }
+      header ul li:hover {
+        font-size: x-large; }

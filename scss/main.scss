@@ -1,0 +1,23 @@
+@import './variables/variable';
+
+
+.contenedor{
+    background-color: cadetblue;
+    .titulo{
+        color: chocolate;
+        &:hover{
+            font-size: xx-large;
+        }
+    }
+    &:hover{
+        background-color: darkgoldenrod;
+    }
+}
+
+//importaciones particion
+@import './utilidades/header';
+
+//variables
+
+
+
